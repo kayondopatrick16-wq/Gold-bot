@@ -12,7 +12,7 @@ import pandas as pd
 import json, urllib.request
 
 # ---------------- CONFIG ----------------
-SYMBOL = os.getenv("SYMBOL", "XAUUSD=X")
+SYMBOL = os.getenv("SYMBOL", "GC=F")
 SERVER_UTC_OFFSET = int(os.getenv("SERVER_UTC_OFFSET", "2"))  # XM server = UTC+2 (+3 in US DST)
 BARS = 1500
 SWING_N = 3
